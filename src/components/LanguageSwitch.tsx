@@ -7,7 +7,7 @@ export const LanguageSwitch: React.FC = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="px-3 py-1.5 text-sm font-medium text-gray-600 hover:text-gray-900 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
+      className="px-4 py-1.5 text-xs font-medium tracking-wider text-gray-500 hover:text-gray-900 border border-gray-200 rounded-full hover:border-gray-300 hover:bg-gray-50 transition-all duration-200"
     >
       {language === 'zh' ? 'EN' : '中文'}
     </button>

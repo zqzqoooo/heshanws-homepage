@@ -6,13 +6,10 @@ export const Footer: React.FC = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="w-full py-8 px-4 mt-auto">
-      <div className="max-w-5xl mx-auto text-center text-sm text-gray-500">
-        <p>
-          &copy; {year} heshanws.top {t('footer.copyright')}
-        </p>
-        <p className="mt-1">
-          {t('footer.madeWith')}
+    <footer className="w-full py-12 px-4 mt-8">
+      <div className="max-w-3xl mx-auto text-center">
+        <p className="text-xs text-gray-400 tracking-wide">
+          &copy; {year} heshan. {t('footer.madeWith')}
         </p>
       </div>
     </footer>
